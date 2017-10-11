@@ -12,6 +12,7 @@ import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
+import android.graphics.drawable.Drawable;
 import android.location.Location;
 import android.location.LocationManager;
 import android.net.ConnectivityManager;
@@ -388,6 +389,10 @@ public class ConversationActivity extends AppCompatActivity implements MessageCo
         mActionBar.setDisplayHomeAsUpEnabled(true);
         mActionBar.setHomeButtonEnabled(true);
 
+        // XXX: Cityflo customizations
+        final Drawable upArrow = getResources().getDrawable(R.drawable.ic_action_arrow_back);
+        mActionBar.setHomeAsUpIndicator(upArrow);
+
         googleApiClient = new GoogleApiClient.Builder(getApplicationContext())
                 .addConnectionCallbacks(this)
                 .addOnConnectionFailedListener(this)
@@ -528,20 +533,20 @@ public class ConversationActivity extends AppCompatActivity implements MessageCo
     public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
         if (requestCode == PermissionsUtils.REQUEST_STORAGE) {
             if (PermissionsUtils.verifyPermissions(grantResults)) {
-                showSnackBar(R.string.storage_permission_granted);
+                //showSnackBar(R.string.storage_permission_granted);
                 if (isAttachment) {
                     isAttachment = false;
                     processAttachment();
                 }
             } else {
-                showSnackBar(R.string.storage_permission_not_granted);
+                //showSnackBar(R.string.storage_permission_not_granted);
             }
         } else if (requestCode == PermissionsUtils.REQUEST_LOCATION) {
             if (PermissionsUtils.verifyPermissions(grantResults)) {
-                showSnackBar(R.string.location_permission_granted);
+                //showSnackBar(R.string.location_permission_granted);
                 processingLocation();
             } else {
-                showSnackBar(R.string.location_permission_not_granted);
+                //showSnackBar(R.string.location_permission_not_granted);
             }
 
         } else if (requestCode == PermissionsUtils.REQUEST_PHONE_STATE) {
@@ -577,10 +582,10 @@ public class ConversationActivity extends AppCompatActivity implements MessageCo
             }
         } else if (requestCode == PermissionsUtils.REQUEST_CONTACT) {
             if (grantResults.length == 1 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-                showSnackBar(R.string.contact_permission_granted);
+                //showSnackBar(R.string.contact_permission_granted);
                 processContact();
             } else {
-                showSnackBar(R.string.contact_permission_not_granted);
+                //showSnackBar(R.string.contact_permission_not_granted);
             }
         } else if (requestCode == PermissionsUtils.REQUEST_CAMERA_FOR_PROFILE_PHOTO) {
             if (grantResults.length == 1 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {

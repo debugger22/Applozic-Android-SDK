@@ -18,7 +18,7 @@
         android:layout_marginStart="95dp"
         android:background="@drawable/applozic_sent_message"
         android:gravity="end|center_vertical"
-        android:minHeight="55dp"
+        android:minHeight="40dp"
         android:minWidth="32dp"
         android:orientation="vertical"
         android:padding="5dp">

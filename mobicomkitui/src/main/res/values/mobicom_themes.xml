@@ -10,6 +10,7 @@
         <item name="colorPrimaryDark">@color/primary_dark_color</item>
         <item name="colorAccent">@color/holo_blue</item>
 
+
         <!--
                 <item name="android:actionDropDownStyle">@style/actionDropDownStyle</item>
                 <item name="actionDropDownStyle">@style/actionDropDownStyle</item> -->
@@ -60,12 +61,14 @@
 
     <style name="ToolbarTitle" parent="@style/TextAppearance.Widget.AppCompat.Toolbar.Title">
         <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/black</item>
     </style>
 
     <style name="ToolbarSubtitle" parent="@style/TextAppearance.Widget.AppCompat.Toolbar.Subtitle">
-        <item name="android:textSize">14sp</item>
+        <item name="android:textSize">0sp</item>
         <item name="android:ellipsize">end</item>
         <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/black</item>
     </style>
 
     <style name="ApplozicTheme.ActionBarStyle" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
@@ -86,6 +89,7 @@
         <item name="android:width">20dp</item>
         <item name="android:paddingLeft">0dp</item>
         <item name="android:paddingRight">0dp</item>
+        <item name="android:textColor">@color/black</item>
     </style>
 
     <style name="Applozic_PopUpTheme" parent="ThemeOverlay.AppCompat.Light">

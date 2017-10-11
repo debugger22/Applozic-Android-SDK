@@ -1512,23 +1512,23 @@ abstract public class MobiComConversationFragment extends Fragment implements Vi
                         if (MobiComUserPreference.getInstance(getActivity()).getUserId().equals(channelUserMapper.getUserKey())) {
                             youString = getString(R.string.you_string);
                         } else {
-                            stringBuffer.append(contactDisplayName.getDisplayName()).append(",");
+                            stringBuffer.append(contactDisplayName.getDisplayName()).append(", ");
                         }
                     }
                 }
                 if (!TextUtils.isEmpty(stringBuffer)) {
                     if (channelUserMapperList.size() <= 20) {
                         if (!TextUtils.isEmpty(youString)) {
-                            stringBuffer.append(youString).append(",");
+                            stringBuffer.append(youString).append(", ");
                         }
                         int lastIndex = stringBuffer.lastIndexOf(",");
                         String userIds = stringBuffer.replace(lastIndex, lastIndex + 1, "").toString();
-                        ((AppCompatActivity) getActivity()).getSupportActionBar().setSubtitle(userIds);
+                        //((AppCompatActivity) getActivity()).getSupportActionBar().setSubtitle(userIds);
                     } else {
-                        ((AppCompatActivity) getActivity()).getSupportActionBar().setSubtitle(stringBuffer.toString());
+                        //((AppCompatActivity) getActivity()).getSupportActionBar().setSubtitle(stringBuffer.toString());
                     }
                 } else {
-                    ((AppCompatActivity) getActivity()).getSupportActionBar().setSubtitle(youString);
+                    //((AppCompatActivity) getActivity()).getSupportActionBar().setSubtitle(youString);
                 }
             }
 

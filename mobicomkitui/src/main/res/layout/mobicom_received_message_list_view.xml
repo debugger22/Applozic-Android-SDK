@@ -43,7 +43,7 @@
         android:layout_toEndOf="@+id/contactImage"
         android:background="@drawable/applozic_received_message"
         android:gravity="center_vertical"
-        android:minHeight="55dp"
+        android:minHeight="40dp"
         android:minWidth="32dp"
         android:orientation="vertical"
         android:padding="5dp">

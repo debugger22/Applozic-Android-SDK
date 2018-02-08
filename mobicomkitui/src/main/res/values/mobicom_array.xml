@@ -17,11 +17,6 @@
 
     <!-- Scheduled Message strings -->
 
-    <string-array name="schedule_menu">
-        <item>Copy</item>
-        <item>Cancel</item>
-    </string-array>
-
 
     <string-array name="menu">
         <item>Copy</item>
@@ -48,36 +43,6 @@
     <!--Multimedia options -->
     <string-array name="multimediaOptions_sms">
         <item>Current location</item>
-    </string-array>
-
-    <string-array name="multimediaOptions_mt">
-        <item>Current location</item>
-        <item>Take photo</item>
-        <item>Attach file</item>
-        <item>Audio Message</item>
-        <item>Video Message</item>
-        <item>Share Contact</item>
-    </string-array>
-
-    <string-array name="multimediaOptions_with_price">
-        <item>Current location</item>
-        <item>Take photo</item>
-        <item>Attach file</item>
-        <item>Audio Message</item>
-        <item>Video Message</item>
-        <item>Share Contact</item>
-        <item>Attach price</item>
-
-    </string-array>
-
-    <string-array name="multimediaOptions_with_price_text">
-        <item>Location</item>
-        <item>Camera</item>
-        <item>File</item>
-        <item>Audio</item>
-        <item>Video</item>
-        <item>Contact</item>
-        <item>Price</item>
     </string-array>
 
     <string-array name="multimediaOptions_without_price_text">

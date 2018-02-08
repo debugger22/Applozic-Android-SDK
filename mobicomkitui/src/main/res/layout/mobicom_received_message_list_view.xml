@@ -1,5 +1,4 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/messageLayout"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_marginTop="2dp"
@@ -78,7 +77,6 @@
         </LinearLayout>
 
         <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-            android:id="@+id/messageTextInsideLayout"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="start"
@@ -179,7 +177,6 @@
             android:textSize="11sp" />
 
         <TextView
-            android:id="@+id/tempForLayoutAdjustment"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:drawableRight="@drawable/applozic_ic_action_message_pending"

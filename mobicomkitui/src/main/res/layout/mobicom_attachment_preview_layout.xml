@@ -46,7 +46,6 @@
         android:visibility="visible">
 
         <ImageView
-            android:id="@+id/download_image"
             android:layout_width="wrap_content"
             android:layout_height="20dp"
             android:layout_gravity="center_vertical"
@@ -84,7 +83,6 @@
         android:visibility="gone">
 
         <ImageView
-            android:id="@+id/attachment_download_cancel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
@@ -110,7 +108,6 @@
         android:visibility="gone">
 
         <TextView
-            android:id="@+id/attachment_retry_text"
             android:layout_width="wrap_content"
             android:textDirection="locale"
             android:textAlignment="gravity"

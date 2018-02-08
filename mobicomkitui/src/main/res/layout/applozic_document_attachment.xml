@@ -19,7 +19,6 @@
         android:visibility="gone" />
 
     <LinearLayout
-        android:id="@+id/download_doc_linear_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"

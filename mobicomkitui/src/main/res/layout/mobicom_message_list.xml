@@ -72,7 +72,6 @@
     </RelativeLayout>
 
     <TextView
-        android:id="@+id/emptyConversation"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:layout_gravity="center_vertical"
@@ -137,7 +136,6 @@
         android:weightSum="8">
 
         <FrameLayout
-            android:id="@+id/sendTypeFrame"
             android:layout_width="0dp"
             android:layout_height="35dp"
             android:layout_marginBottom="0dp"
@@ -155,7 +153,6 @@
         </FrameLayout>
 
         <FrameLayout
-            android:id="@+id/scheduleOptionFrame"
             android:layout_width="0dp"
             android:layout_height="35dp"
             android:layout_marginBottom="0dp"
@@ -175,7 +172,6 @@
         </FrameLayout>
 
         <FrameLayout
-            android:id="@+id/secretMessageSpinnerFrame"
             android:layout_width="0dp"
             android:layout_height="35dp"
             android:layout_marginBottom="0dp"
@@ -185,7 +181,6 @@
             android:background="@color/message_action_button">
 
             <Spinner
-                android:id="@+id/secret_message_spinner"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:layout_margin="0dp"
@@ -241,7 +236,6 @@
             <include layout="@layout/reply_message_layout" />
 
             <LinearLayout
-                android:id="@+id/edit_text_linear_layout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom"
@@ -346,7 +340,6 @@
                     android:src="@drawable/slide_arrow_left" />
 
                 <TextView
-                    android:id="@+id/slide_to_cancel_text_view"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"

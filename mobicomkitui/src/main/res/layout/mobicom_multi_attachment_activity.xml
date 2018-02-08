@@ -20,7 +20,6 @@
         android:layout_weight="0.8" />
 
     <RelativeLayout
-        android:id="@+id/multi_attachment_heading_layout"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_below="@+id/mobicom_attachment_grid_View"

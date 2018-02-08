@@ -161,7 +161,6 @@
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
-                android:id="@+id/applozic_message_info_read_card"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/applozic_message_info_read_header_card"
@@ -222,7 +221,6 @@
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
-                android:id="@+id/applozic_message_info_delivered_list_card"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/applozic_message_info_delivered_header_card"

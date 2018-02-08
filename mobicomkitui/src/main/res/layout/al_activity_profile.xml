@@ -50,7 +50,6 @@
 
 
             <TextView
-                android:id="@+id/applozic_profile_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAlignment="gravity"
@@ -74,7 +73,6 @@
                 android:text="@string/sales_manager" />
 
             <RelativeLayout
-                android:id="@+id/applozic_profile_displayname_section_rl"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingStart="10dp"
@@ -82,7 +80,6 @@
                 android:paddingEnd="10dp"
                 android:paddingLeft="10dp">
                 <RelativeLayout
-                    android:id="@+id/applozic_profile_displayname_verticalline_rl"
                     android:layout_width="2dp"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="4dp"
@@ -207,7 +204,6 @@
 
 
                 <android.support.v7.widget.SwitchCompat
-                    android:id="@+id/switchButton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentRight="true"
@@ -229,7 +225,6 @@
 
 
                 <RelativeLayout
-                    android:id="@+id/applozic_profile_contact_verticalline_rl"
                     android:layout_width="2dp"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="4dp"
@@ -238,7 +233,6 @@
 
 
                 <View
-                    android:id="@+id/view2"
                     android:layout_width="15dp"
                     android:layout_height="15dp"
                     android:layout_marginTop="15dp"
@@ -334,7 +328,6 @@
 
 
                 <android.support.v7.widget.SwitchCompat
-                    android:id="@+id/applozic_switch_notification"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignBottom="@+id/applozic_notification_status"

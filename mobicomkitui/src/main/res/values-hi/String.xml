@@ -28,14 +28,12 @@
     <string name="phone_call_permission">प्रवेश करने के लिए फोन कॉल की अनुमति आवश्यक है</string>
     <string name="phone_camera_permission">एक्सेस करने के लिए कैमरा अनुमति आवश्यक है</string>
     <string name="record_audio">ऑडियो रिकॉर्डिंग अनुमति की आवश्यकता है</string>
-    <string name="contact_permission_not_granted">संपर्क के लिए अनुमति नहीं दी गई थी</string>
     <string name="storage_permission_not_granted">संग्रहण के लिए अनुमतियाँ नहीं दी गईं</string>
     <string name="location_permission_not_granted">स्थान के लिए अनुमतियाँ नहीं दी गईं</string>
     <string name="phone_state_permission_not_granted">फ़ोन स्टेट के लिए अनुमतियां प्रदान नहीं की गईं</string>
     <string name="phone_call_permission_not_granted">फोन कॉल के लिए अनुमति नहीं दी गई थी</string>
     <string name="phone_camera_permission_not_granted">कैमरे के लिए अनुमति नहीं दी गई थी</string>
     <string name="record_audio_permission_not_granted">ऑडियो रिकॉर्डिंग के लिए अनुमतियां प्रदान नहीं की गईं</string>
-    <string name="contact_permission_granted">संपर्क अनुमति दी गई है</string>
     <string name="storage_permission_granted">संग्रहण अनुमतियां दी गई हैं</string>
     <string name="location_permission_granted">स्थान अनुमतियां दी गई हैं</string>
     <string name="phone_state_permission_granted">फोन स्थिति अनुमति दी गई है</string>
@@ -50,10 +48,6 @@
     <string name="applozic_message_info_no_network">संदेश जानकारी लाने में सक्षम नहीं</string>
     <string name="applozic_user_profile_heading">प्रोफाइल</string>
     <string name="send_message_to">भेजना..</string>
-    <string name="info_attachment_max_allowed_file_size_exceeded">अधिकतम अपलोड फ़ाइल आकार सीमा नहीं पार कर सकते हैं</string>
-    <string name="please_wait_creating_group_of_two">कृपया प्रतीक्षा करें...</string>
-    <string name="sort_contacts_by_lastSeenAt">पिछले द्वारा देखा द्वारा क्रमबद्ध</string>
-    <string name="sort_contacts_by_recent_chats">हाल ही की चैट के आधार पर क्रमबद्ध करें</string>
     <string name="app_name">Applozic</string>
     <string name="conversations">बातचीत</string>
     <string name="channel_create_title">नया समूह</string>
@@ -94,7 +88,6 @@
     <string name="info_file_attachment_error">नहीं भेज सकते हैं! फ़ाइल पढ़ने के दौरान कुछ अनपेक्षित त्रुटि हुई</string>
     <string name="select_file_count_limit">एक से अधिक फाइल का चयन नहीं कर सकता</string>
     <string name="ScheduleText">अनुसूची</string>
-    <string name="enter_mt_message_hint">एक सन्देश लिखिए..</string>
     <string name="messageOptions">संदेश विकल्प</string>
     <string name="conversation">बातचीत</string>
     <string name="conversation_options">विकल्प</string>
@@ -162,14 +155,9 @@
     <string name="applozic_add_user_to_multiple_channel_error_info_in_logs">यूज़र आईडी रिक्त या रिक्त नहीं हो सकती और चैनल की सूची रिक्त नहीं होनी चाहिए</string>
     <string name="unable_share_message">साझा करने में असमर्थ आप इस समूह के प्रतिभागी नहीं हैं</string>
     <string name="user_is_blocked">भेजने में असमर्थ, उपयोगकर्ता ब्लॉक है</string>
-    <string name="when_on_wifi">जब वाईफाई चालू है</string>
-    <string name="when_on_cellular_network">जब सेलुलर नेटवर्क चालू है</string>
-    <string name="media_auto_download">मीडिया ऑटो डाउनलोड</string>
     <string name="applozic_network_usage">नेटवर्क उपयोग</string>
-    <string name="enable_vibration_notification">सूचना पर कंपन सक्षम करें</string>
     <string name="group_members_limit_exceeds">सीमा तक पहुंचे, किसी व्यक्ति को पहले समूह से निकालें</string>
     <string name="user_has_been_deleted_text">भेजने हटा दिया गया है</string>
-    <string name="make_admin_text_info">समूह व्यवस्थापक बनाना</string>
     <string name="attachment_string">अनुलग्नक </string>
     <string name="photo_string">फ़ोटो</string>
     <string name="contact_string">संपर्क </string>
@@ -201,31 +189,15 @@
     <string name="share">शेयर</string>
     <string name="reply">जवाब दें</string>
     <string name="self_destruct">आत्म विनाश</string>
-    <string name="off">ऑफ </string>
-    <string name="one_min">1 मिनट</string>
-    <string name="two_min">2 मिनट</string>
-    <string name="five_min">5 मिनट</string>
-    <string name="ten_min">10 मिनट</string>
-    <string name="sms">एसएमएस</string>
-    <string name="mt">मीट्रिक टन</string>
-    <string name="Delete_conversation">चैट हटाएं</string>
     <string name="delete_group">समूह हटाएं</string>
     <string name="exit_group">समूह से बाहर निकलें</string>
     <string name="message">संदेश </string>
-    <string name="remove">हटाना</string>
-    <string name="make_group_admin">समूह व्यवस्थापक को बनाएं</string>
-    <string name="take_photo">फोटो लो</string>
-    <string name="attach_file">फ़ाइल जोड़ें</string>
-    <string name="audio_message">ऑडियो संदेश</string>
-    <string name="video_message">वीडियो संदेश</string>
-    <string name="share_contact">संपर्क साझा करें</string>
     <string name="location">:स्थान</string>
     <string name="file">:फ़ाइल</string>
     <string name="audio">:ऑडियो</string>
     <string name="video">:वीडियो</string>
     <string name="camera">:कैमरा</string>
     <string name="contact">:संपर्क</string>
-    <string name="current_location">वर्तमान स्थान</string>
     <string name="Add_caption">शीर्षक दें...</string>
     <string name="New_Attachment">नई अनुलग्नक</string>
     <string name="send_location">स्थान भेजें</string>
@@ -252,21 +224,17 @@
     <string name="edit_group_name">समूह का नाम संपादित करें</string>
     <string name="add_member">सदस्य जोड़ें</string>
     <string name="push_notifications">सूचनाएं भेजना</string>
-    <string name="group_not_exist">समूह मौजूद नहीं है</string>
     <string name="Add_Contacts">संपर्क जोड़ें</string>
     <string name="no_groups">कोई समूह नहीं</string>
     <string name="search_match_other">अन्य फ़ील्ड से मेल खाता है</string>
     <string name="invite">अपने दोस्तों को आमंत्रित करें</string>
-    <string name="contacts_not_found">कोई संपर्क नहीं मिला</string>
     <string name="Location">स्थान</string>
     <string name="applozic_failed_to_load_contact">संपर्क लोड करने में विफल</string>
     <string name="applozic_Cropping_failed">क्रॉपिंग असफल</string>
     <string name="applozic_resending_attachment">एटचमेंट पुनः भेजें....</string>
     <string name="processing_please_wait">प्रसंस्करण किया जा रहा है .. कृपया प्रतीक्षा करें</string>
-    <string name="success">सफलता</string>
     <string name="error">एरर</string>
     <string name="camera_option">कैमरा</string>
-    <string name="attach_price">Attach price</string>
     <string name="mute_group_for">समय के लिए म्यूट समूह ..</string>
     <string name="eight_Hours">आठ घंटे</string>
     <string name="one_week"> एक हफ्ता</string>
@@ -300,11 +268,6 @@
 
     <!-- Scheduled Message strings -->
 
-    <string-array name="schedule_menu">
-        <item>कॉपी</item>
-        <item>रद्द</item>
-    </string-array>
-
     <string-array name="menu">
         <item>कॉपी</item>
         <item>आगे भेजना</item>
@@ -330,36 +293,6 @@
     <!--Multimedia options -->
     <string-array name="multimediaOptions_sms">
         <item>वर्तमान स्थान</item>
-    </string-array>
-
-    <string-array name="multimediaOptions_mt">
-        <item>वर्तमान स्थान</item>
-        <item>फोटो लो</item>
-        <item>फ़ाइल जोड़ें</item>
-        <item>ऑडियो संदेश</item>
-        <item>वीडियो संदेश</item>
-        <item>संपर्क साझा करें</item>
-    </string-array>
-
-    <string-array name="multimediaOptions_with_price">
-        <item>वर्तमान स्थान</item>
-        <item>फोटो लो</item>
-        <item>फ़ाइल जोड़ें</item>
-        <item>ऑडियो संदेश</item>
-        <item>वीडियो संदेश</item>
-        <item>संपर्क साझा करें</item>
-        <item>कीमत संलग्न करें</item>
-
-    </string-array>
-
-    <string-array name="multimediaOptions_with_price_text">
-        <item>स्थान</item>
-        <item>कैमरा</item>
-        <item>फ़ाइल</item>
-        <item>ऑडियो</item>
-        <item>वीडियो</item>
-        <item>संपर्क</item>
-        <item>मूल्य</item>
     </string-array>
 
     <string-array name="multimediaOptions_without_price_text">
@@ -388,16 +321,5 @@
         <item>&#xf03d;</item>
         <item>&#xf007;</item>
     </string-array>
-
-    <array name="alphabet_color">
-        <item>#f16364</item>
-        <item>#f58559</item>
-        <item>#f9a43e</item>
-        <item>#e4c62e</item>
-        <item>#67bf74</item>
-        <item>#59a2be</item>
-        <item>#2093cd</item>
-        <item>#ad62a7</item>
-    </array>
 
 </resources>

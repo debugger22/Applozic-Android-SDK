@@ -8,7 +8,4 @@
     <color name="location_activity_background">#FFFAFAFA</color>
 
 
-    <color name="people_activity_main_color">#ff3B94D9</color>
-    <color name="people_activity_action_bar_color">#ff3B94D9</color>
-    <color name="people_activity_primary_dark_color">#ff206ca7</color>
 </resources>
